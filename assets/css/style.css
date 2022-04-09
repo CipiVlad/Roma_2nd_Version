@@ -113,3 +113,72 @@ html {
     margin: 5em 0 0 3em;
     padding: 0em 1em 0 2em;
 }
+
+/* main section 2.5 million domestic workers */
+
+
+.domestic-workers-img img {
+    width: 10%;
+    color: #e7bc0e;
+    margin: 8em 12em 12em 16em;
+}
+
+.million {
+    font-family: santio bold;
+    font-size: 12em;
+    font-weight: bold;
+    color: #e7bc0e;
+    padding: 0em 0em 0em 1.5em;
+}
+
+.domestic-workers {
+    font-family: santio bold;
+    font-size: 3.1rem;
+    color: #e7bc0e;
+    padding-left: 5.8em;
+}
+
+.domestic-workers p:first-child {
+    display: inline;
+}
+
+.domestic-workers p:last-child {
+    padding: 0 4px;
+    background: rgb(45, 44, 44);
+    color: #fff;
+    display: inline-block;
+}
+
+/* main section paid less with class="domestic-workers"  */
+
+main section:nth-of-type(4) h1 {
+    color: #cb91b6;
+}
+
+main section:nth-of-type(4) p {
+    color: #cb91b6;
+}
+
+main section:nth-of-type(4) div:first-child {
+    margin-top: -15em;
+}
+
+/* main section no health insurance */
+main section:nth-of-type(5) h1 {
+    color: #6bc1a3;
+}
+
+main section:nth-of-type(5) p {
+    color: #6bc1a3;
+}
+
+main section:nth-of-type(5) article:nth-child(4) {
+    color: #7eb8e1;
+    font-size: 3rem;
+    margin-left: 14em;
+    padding: 0em;
+}
+
+main section:nth-of-type(5) div:first-child {
+    margin-top: -40em;
+}
