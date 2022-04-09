@@ -11,13 +11,13 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Tangerine', cursive;
 font-family: santio bold;
 
-
 #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
 #################*/
 
 /* #####################################################################
                                 general
 #####################################################################*/
+
 * {
     padding: 0;
     margin: 0;
@@ -59,20 +59,20 @@ html {
     mix-blend-mode: multiply;
 }
 
-
 /* #####################################################################
                                 header
 #####################################################################*/
+
 .hero-header {
     text-decoration: underline #e7bc0e;
     font-family: 'Roboto';
-    font-size: 2em;
-    color: #fff;
+    font-size: 1.6em;
+    color: rgba(255, 255, 255, 0.907);
     position: absolute;
     top: 0;
     right: 1em;
-    margin: 10px 6px 0 0;
-    padding-right: 4em;
+    margin: 11px 6px 0 0;
+    padding-right: 7em;
 }
 
 .hero-heart {
@@ -86,6 +86,7 @@ html {
 /* #####################################################################
                                 main
 #####################################################################*/
+
 .millionsofcloes {
     font-family: santio bold;
     font-size: 6em;
@@ -181,4 +182,65 @@ main section:nth-of-type(5) article:nth-child(4) {
 
 main section:nth-of-type(5) div:first-child {
     margin-top: -40em;
+}
+
+/* 
+#####################################################################
+                                footer
+#####################################################################*/
+
+footer {
+    height: 100vh;
+    background-color: # #efefef;
+    background-image: url("../img/see.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer section:first-child {
+    height: 100vh;
+    background-color: #efefef;
+    background-image: url("../img/kid.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer section:nth-child(2) {
+    background: #000;
+    height: 100vh;
+}
+
+footer section:nth-child(2) div {
+    color: white;
+    text-align: left;
+    font-family: santio bold;
+    font-size: 8rem;
+    padding: 10% 10% 15% 10%;
+}
+
+footer section:nth-child(2) div button {
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 1rem 3rem;
+    border-color: #fff;
+    button-style: none;
+    background-color: #000;
+    color: #fff;
+}
+
+footer button:hover {
+    box-shadow: 5px 5px #fff;
+}
+
+.romawebsite {
+    font-family: 'Roboto';
+    text-align: center;
+    color: white;
+}
+
+.romawebsite a {
+    text-decoration: none;
+    color: #6bc1a3;
 }
