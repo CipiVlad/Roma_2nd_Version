@@ -115,6 +115,18 @@ html {
     padding: 0em 1em 0 2em;
 }
 
+/* main article class .caringwomen emphasis*/
+.caringwomen p:first-child {
+    display: inline;
+}
+
+.caringwomen p:last-child {
+    padding: 0 4px;
+    background: rgb(45, 44, 44);
+    color: #fff;
+    display: inline;
+}
+
 /* main section 2.5 million domestic workers */
 
 
@@ -182,6 +194,32 @@ main section:nth-of-type(5) article:nth-child(4) {
 
 main section:nth-of-type(5) div:first-child {
     margin-top: -40em;
+}
+
+/* article empahsis with .caringwomen  */
+#unsungheroines {
+    /* width: 86%; */
+    text-align: left;
+    line-height: 1.5em;
+    font-family: santio bold;
+
+    color: #7eb8e1;
+    margin: 5em 7em 0 3em;
+    padding: 8em 0 5em;
+    position: absolute;
+    left: 10em;
+    bottom: 0em;
+}
+
+#unsungheroines p :first-child {
+    display: inline;
+}
+
+#unsungheroines p {
+    padding: 0 4px;
+    background: rgb(45, 44, 44);
+    color: #fff;
+    display: inline;
 }
 
 /* 
