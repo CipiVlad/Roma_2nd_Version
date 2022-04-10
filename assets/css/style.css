@@ -37,7 +37,6 @@ html {
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    color: white;
     display: flex;
     isolation: isolate;
 }
@@ -47,7 +46,6 @@ html {
     padding: 2em;
     padding-top: min(15vh, 10rem);
     position: relative;
-
 }
 
 .hero-intro::after {
@@ -90,9 +88,8 @@ html {
 .millionsofcloes {
     font-family: santio bold;
     font-size: 6em;
-    color: #7eb8e1;
+    color: #efefef;
     margin: 3em 3em 1em 1em;
-
 }
 
 .millionsofcloes h2 {
@@ -102,6 +99,13 @@ html {
     letter-spacing: -4.9px;
     margin-top: 1em;
     color: #e7bc0e;
+}
+
+.millionsofcloes h2 em {
+    font-family: fantasy;
+    font-style: inherit;
+    font-size: 35px;
+    margin-left: 15px;
 }
 
 .caringwomen {
